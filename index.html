@@ -14,7 +14,7 @@
     <input type="text" id="text" placeholder="Enter anything in mind">
     <span id="output"></span>
         <script type="text/python" id="script1">
-            from browser import document
+            from browser import document, html
 
             def show_text(e):
                 document['output'].textContent = e.target.value;
